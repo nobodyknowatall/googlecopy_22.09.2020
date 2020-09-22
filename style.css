@@ -1,0 +1,89 @@
+/* HEADER */
+.header
+{
+  text-align: right;
+  background-color: pink;
+  border: 5px solid black;
+}
+
+
+
+
+/* MAIN */
+.main
+{
+  background-color: #88c74e;
+  border: 5px solid black;
+}
+
+.imagedujour
+{
+  width: 35%;
+  margin-right: auto;
+  margin-left: auto;
+  border: red;
+  align-items: baseline;
+}
+
+.imagetoday
+{
+width: 100%;
+float: right;
+}
+
+.fas fa-share-alt
+{
+  width: 35%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.googlesearch
+{
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  border: black solid 1px;
+  padding: 5px;
+  border-radius: 20px;
+
+}
+.lancerrecherche
+{
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+
+.langueavailable
+{
+  width: 20%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5px;
+}
+
+/* FOOTER */
+.footer
+{
+  background-color: #F2F2F2;
+  border: 5px solid black;
+}
+
+.footerrow1
+{
+
+}
+.footerrow2
+{
+
+}
+.footerrow2left
+{
+align-content: flex-start ;
+}
+.footerrow2right
+{
+  align-content: flex-end;
+
+}
