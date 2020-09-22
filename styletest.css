@@ -1,0 +1,88 @@
+body{
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+/* ------------------ GLOBAL --------------*/
+
+.wrapper
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+}
+/* ------------------ HEADER --------------*/
+#header
+{
+  background-color: white;
+  text-align: right;
+  padding: 30px 0 20px 0;
+  word-spacing: 12px;
+}
+/* ------------------ CONTENT --------------*/
+.main
+{
+  background-color: white;
+  padding: 50px 50px 80px 50px;
+  text-align: center;
+}
+.share
+{
+  float: right;
+  color: #F78D5E;
+  font-size: 25px;
+}
+.googlesearch
+{
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  border: #DFE1E5 solid 1px;
+  padding: 5px;
+  border-radius: 20px;
+}
+input[type=search] { 	
+  padding: 5px;
+  padding-left: 30%;            /* Overridden by padding: 1px; */
+  padding-right: 30%;
+	border: none;  /* Overridden by border: 2px inset; */
+	background: white;          /* Overridden by background-color: white; */
+  line-height: 2; 
+  
+}
+/* ------------------ FOOTER --------------*/
+.footer
+{
+  background-color: #F2F2F2;
+  padding: 10px;
+  text-align: center;
+  color: #5F6368;
+}
+.footerrow1
+{
+text-align: left;
+padding-left: 10px;
+border-top: black solid 1px;
+border-bottom: black solid 1px;
+}
+.footerrow2left
+{
+text-align: left;
+}
+.footerrow2right
+{
+text-align: right;
+}
+.footer a, a:visited
+{
+color: #5F6368;
+text-decoration: #5F6368;
+}
+.footer a:hover
+{
+
+text-decoration: underline;
+}
